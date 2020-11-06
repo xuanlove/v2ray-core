@@ -5,8 +5,8 @@ import (
 	"syscall"
 	"time"
 
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/session"
+	"github.com/xuanlove/v2ray-core/common/net"
+	"github.com/xuanlove/v2ray-core/common/session"
 )
 
 var (

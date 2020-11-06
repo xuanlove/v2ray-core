@@ -6,12 +6,12 @@ import (
 	"os"
 	"strings"
 
-	"v2ray.com/core"
-	"v2ray.com/core/app/dispatcher"
-	"v2ray.com/core/app/proxyman"
-	"v2ray.com/core/app/stats"
-	"v2ray.com/core/common/serial"
-	"v2ray.com/core/transport/internet/xtls"
+	"github.com/xuanlove/v2ray-core"
+	"github.com/xuanlove/v2ray-core/app/dispatcher"
+	"github.com/xuanlove/v2ray-core/app/proxyman"
+	"github.com/xuanlove/v2ray-core/app/stats"
+	"github.com/xuanlove/v2ray-core/common/serial"
+	"github.com/xuanlove/v2ray-core/transport/internet/xtls"
 )
 
 var (

@@ -12,8 +12,8 @@ import (
 	"math"
 	"time"
 
-	"v2ray.com/core/common"
-	antiReplayWindow "v2ray.com/core/common/antireplay"
+	"github.com/xuanlove/v2ray-core/common"
+	antiReplayWindow "github.com/xuanlove/v2ray-core/common/antireplay"
 )
 
 var (

@@ -12,8 +12,8 @@ import (
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
-	router "v2ray.com/core/app/router"
-	net "v2ray.com/core/common/net"
+	router "github.com/xuanlove/v2ray-core/app/router"
+	net "github.com/xuanlove/v2ray-core/common/net"
 )
 
 const (

@@ -8,9 +8,9 @@ import (
 	"go.starlark.net/starlark"
 	"go.starlark.net/syntax"
 
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/strmatcher"
-	"v2ray.com/core/features/routing"
+	"github.com/xuanlove/v2ray-core/common/net"
+	"github.com/xuanlove/v2ray-core/common/strmatcher"
+	"github.com/xuanlove/v2ray-core/features/routing"
 )
 
 type Condition interface {

@@ -1,6 +1,6 @@
 package main
 
-//go:generate go run v2ray.com/core/common/errors/errorgen
+//go:generate go run github.com/xuanlove/v2ray-core/common/errors/errorgen
 
 import (
 	"flag"
@@ -15,10 +15,10 @@ import (
 	"strings"
 	"syscall"
 
-	"v2ray.com/core"
-	"v2ray.com/core/common/cmdarg"
-	"v2ray.com/core/common/platform"
-	_ "v2ray.com/core/main/distro/all"
+	"github.com/xuanlove/v2ray-core"
+	"github.com/xuanlove/v2ray-core/common/cmdarg"
+	"github.com/xuanlove/v2ray-core/common/platform"
+	_ "github.com/xuanlove/v2ray-core/main/distro/all"
 )
 
 var (

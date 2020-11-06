@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	. "v2ray.com/core/common/strmatcher"
+	. "github.com/xuanlove/v2ray-core/common/strmatcher"
 )
 
 func TestFullMatcherGroup(t *testing.T) {

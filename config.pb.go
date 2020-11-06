@@ -12,8 +12,8 @@ import (
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
-	serial "v2ray.com/core/common/serial"
-	transport "v2ray.com/core/transport"
+	serial "github.com/xuanlove/v2ray-core/common/serial"
+	transport "github.com/xuanlove/v2ray-core/transport"
 )
 
 const (

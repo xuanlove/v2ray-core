@@ -6,7 +6,7 @@ import (
 	"context"
 	"sync"
 
-	"v2ray.com/core/common"
+	"github.com/xuanlove/v2ray-core/common"
 )
 
 // Channel is an implementation of stats.Channel.

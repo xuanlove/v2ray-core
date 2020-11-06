@@ -6,14 +6,14 @@ import (
 	"time"
 
 	"github.com/golang/mock/gomock"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/errors"
-	"v2ray.com/core/common/mux"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/session"
-	"v2ray.com/core/testing/mocks"
-	"v2ray.com/core/transport"
-	"v2ray.com/core/transport/pipe"
+	"github.com/xuanlove/v2ray-core/common"
+	"github.com/xuanlove/v2ray-core/common/errors"
+	"github.com/xuanlove/v2ray-core/common/mux"
+	"github.com/xuanlove/v2ray-core/common/net"
+	"github.com/xuanlove/v2ray-core/common/session"
+	"github.com/xuanlove/v2ray-core/testing/mocks"
+	"github.com/xuanlove/v2ray-core/transport"
+	"github.com/xuanlove/v2ray-core/transport/pipe"
 )
 
 func TestIncrementalPickerFailure(t *testing.T) {

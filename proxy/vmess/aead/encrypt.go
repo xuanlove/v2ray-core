@@ -9,7 +9,7 @@ import (
 	"io"
 	"time"
 
-	"v2ray.com/core/common"
+	"github.com/xuanlove/v2ray-core/common"
 )
 
 func SealVMessAEADHeader(key [16]byte, data []byte) []byte {

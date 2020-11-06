@@ -3,7 +3,7 @@ package buf
 import (
 	"io"
 
-	"v2ray.com/core/common/bytespool"
+	"github.com/xuanlove/v2ray-core/common/bytespool"
 )
 
 const (

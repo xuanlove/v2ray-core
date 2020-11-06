@@ -7,9 +7,9 @@ import (
 
 	xtls "github.com/xtls/go"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/protocol/tls/cert"
-	. "v2ray.com/core/transport/internet/xtls"
+	"github.com/xuanlove/v2ray-core/common"
+	"github.com/xuanlove/v2ray-core/common/protocol/tls/cert"
+	. "github.com/xuanlove/v2ray-core/transport/internet/xtls"
 )
 
 func TestCertificateIssuing(t *testing.T) {

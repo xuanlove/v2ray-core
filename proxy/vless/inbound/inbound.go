@@ -2,7 +2,7 @@
 
 package inbound
 
-//go:generate go run v2ray.com/core/common/errors/errorgen
+//go:generate go run github.com/xuanlove/v2ray-core/common/errors/errorgen
 
 import (
 	"context"
@@ -11,27 +11,27 @@ import (
 	"syscall"
 	"time"
 
-	"v2ray.com/core"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/errors"
-	"v2ray.com/core/common/log"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/platform"
-	"v2ray.com/core/common/protocol"
-	"v2ray.com/core/common/retry"
-	"v2ray.com/core/common/session"
-	"v2ray.com/core/common/signal"
-	"v2ray.com/core/common/task"
-	"v2ray.com/core/features/dns"
-	feature_inbound "v2ray.com/core/features/inbound"
-	"v2ray.com/core/features/policy"
-	"v2ray.com/core/features/routing"
-	"v2ray.com/core/proxy/vless"
-	"v2ray.com/core/proxy/vless/encoding"
-	"v2ray.com/core/transport/internet"
-	"v2ray.com/core/transport/internet/tls"
-	"v2ray.com/core/transport/internet/xtls"
+	"github.com/xuanlove/v2ray-core"
+	"github.com/xuanlove/v2ray-core/common"
+	"github.com/xuanlove/v2ray-core/common/buf"
+	"github.com/xuanlove/v2ray-core/common/errors"
+	"github.com/xuanlove/v2ray-core/common/log"
+	"github.com/xuanlove/v2ray-core/common/net"
+	"github.com/xuanlove/v2ray-core/common/platform"
+	"github.com/xuanlove/v2ray-core/common/protocol"
+	"github.com/xuanlove/v2ray-core/common/retry"
+	"github.com/xuanlove/v2ray-core/common/session"
+	"github.com/xuanlove/v2ray-core/common/signal"
+	"github.com/xuanlove/v2ray-core/common/task"
+	"github.com/xuanlove/v2ray-core/features/dns"
+	feature_inbound "github.com/xuanlove/v2ray-core/features/inbound"
+	"github.com/xuanlove/v2ray-core/features/policy"
+	"github.com/xuanlove/v2ray-core/features/routing"
+	"github.com/xuanlove/v2ray-core/proxy/vless"
+	"github.com/xuanlove/v2ray-core/proxy/vless/encoding"
+	"github.com/xuanlove/v2ray-core/transport/internet"
+	"github.com/xuanlove/v2ray-core/transport/internet/tls"
+	"github.com/xuanlove/v2ray-core/transport/internet/xtls"
 )
 
 var (

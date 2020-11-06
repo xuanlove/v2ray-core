@@ -2,7 +2,7 @@ package conf
 
 import (
 	"github.com/golang/protobuf/proto"
-	"v2ray.com/core/proxy/dokodemo"
+	"github.com/xuanlove/v2ray-core/proxy/dokodemo"
 )
 
 type DokodemoConfig struct {

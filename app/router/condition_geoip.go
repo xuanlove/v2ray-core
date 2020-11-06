@@ -6,7 +6,7 @@ import (
 	"encoding/binary"
 	"sort"
 
-	"v2ray.com/core/common/net"
+	"github.com/xuanlove/v2ray-core/common/net"
 )
 
 type ipv6 struct {

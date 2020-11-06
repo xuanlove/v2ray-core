@@ -2,7 +2,7 @@
 
 package dispatcher
 
-//go:generate go run v2ray.com/core/common/errors/errorgen
+//go:generate go run github.com/xuanlove/v2ray-core/common/errors/errorgen
 
 import (
 	"context"
@@ -10,20 +10,20 @@ import (
 	"sync"
 	"time"
 
-	"v2ray.com/core"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/buf"
-	"v2ray.com/core/common/log"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/protocol"
-	"v2ray.com/core/common/session"
-	"v2ray.com/core/features/outbound"
-	"v2ray.com/core/features/policy"
-	"v2ray.com/core/features/routing"
-	routing_session "v2ray.com/core/features/routing/session"
-	"v2ray.com/core/features/stats"
-	"v2ray.com/core/transport"
-	"v2ray.com/core/transport/pipe"
+	"github.com/xuanlove/v2ray-core"
+	"github.com/xuanlove/v2ray-core/common"
+	"github.com/xuanlove/v2ray-core/common/buf"
+	"github.com/xuanlove/v2ray-core/common/log"
+	"github.com/xuanlove/v2ray-core/common/net"
+	"github.com/xuanlove/v2ray-core/common/protocol"
+	"github.com/xuanlove/v2ray-core/common/session"
+	"github.com/xuanlove/v2ray-core/features/outbound"
+	"github.com/xuanlove/v2ray-core/features/policy"
+	"github.com/xuanlove/v2ray-core/features/routing"
+	routing_session "github.com/xuanlove/v2ray-core/features/routing/session"
+	"github.com/xuanlove/v2ray-core/features/stats"
+	"github.com/xuanlove/v2ray-core/transport"
+	"github.com/xuanlove/v2ray-core/transport/pipe"
 )
 
 var (

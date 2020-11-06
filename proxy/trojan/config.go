@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	fmt "fmt"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/protocol"
+	"github.com/xuanlove/v2ray-core/common"
+	"github.com/xuanlove/v2ray-core/common/protocol"
 )
 
 // MemoryAccount is an account type converted from Account.

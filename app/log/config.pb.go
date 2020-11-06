@@ -12,7 +12,7 @@ import (
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
-	log "v2ray.com/core/common/log"
+	log "github.com/xuanlove/v2ray-core/common/log"
 )
 
 const (

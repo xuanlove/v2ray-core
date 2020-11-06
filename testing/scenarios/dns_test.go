@@ -6,17 +6,17 @@ import (
 	"time"
 
 	xproxy "golang.org/x/net/proxy"
-	"v2ray.com/core"
-	"v2ray.com/core/app/dns"
-	"v2ray.com/core/app/proxyman"
-	"v2ray.com/core/app/router"
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
-	"v2ray.com/core/common/serial"
-	"v2ray.com/core/proxy/blackhole"
-	"v2ray.com/core/proxy/freedom"
-	"v2ray.com/core/proxy/socks"
-	"v2ray.com/core/testing/servers/tcp"
+	"github.com/xuanlove/v2ray-core"
+	"github.com/xuanlove/v2ray-core/app/dns"
+	"github.com/xuanlove/v2ray-core/app/proxyman"
+	"github.com/xuanlove/v2ray-core/app/router"
+	"github.com/xuanlove/v2ray-core/common"
+	"github.com/xuanlove/v2ray-core/common/net"
+	"github.com/xuanlove/v2ray-core/common/serial"
+	"github.com/xuanlove/v2ray-core/proxy/blackhole"
+	"github.com/xuanlove/v2ray-core/proxy/freedom"
+	"github.com/xuanlove/v2ray-core/proxy/socks"
+	"github.com/xuanlove/v2ray-core/testing/servers/tcp"
 )
 
 func TestResolveIP(t *testing.T) {

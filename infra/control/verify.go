@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/xiaokangwang/VSign/signerVerify"
-	"v2ray.com/core/common"
+	"github.com/xuanlove/v2ray-core/common"
 )
 
 type VerifyCommand struct{}

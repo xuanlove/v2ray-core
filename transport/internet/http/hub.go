@@ -14,14 +14,14 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 
-	"v2ray.com/core/common"
-	"v2ray.com/core/common/net"
-	http_proto "v2ray.com/core/common/protocol/http"
-	"v2ray.com/core/common/serial"
-	"v2ray.com/core/common/session"
-	"v2ray.com/core/common/signal/done"
-	"v2ray.com/core/transport/internet"
-	"v2ray.com/core/transport/internet/tls"
+	"github.com/xuanlove/v2ray-core/common"
+	"github.com/xuanlove/v2ray-core/common/net"
+	http_proto "github.com/xuanlove/v2ray-core/common/protocol/http"
+	"github.com/xuanlove/v2ray-core/common/serial"
+	"github.com/xuanlove/v2ray-core/common/session"
+	"github.com/xuanlove/v2ray-core/common/signal/done"
+	"github.com/xuanlove/v2ray-core/transport/internet"
+	"github.com/xuanlove/v2ray-core/transport/internet/tls"
 )
 
 type Listener struct {

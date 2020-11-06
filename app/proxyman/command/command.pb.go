@@ -12,9 +12,9 @@ import (
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
-	core "v2ray.com/core"
-	protocol "v2ray.com/core/common/protocol"
-	serial "v2ray.com/core/common/serial"
+	core "github.com/xuanlove/v2ray-core"
+	protocol "github.com/xuanlove/v2ray-core/common/protocol"
+	serial "github.com/xuanlove/v2ray-core/common/serial"
 )
 
 const (

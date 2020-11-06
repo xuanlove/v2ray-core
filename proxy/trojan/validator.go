@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"v2ray.com/core/common/protocol"
+	"github.com/xuanlove/v2ray-core/common/protocol"
 )
 
 // Validator stores valid trojan users.
